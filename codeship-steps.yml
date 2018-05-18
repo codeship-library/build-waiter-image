@@ -1,0 +1,6 @@
+- service: waiter
+  command: build-waiter
+- service: app
+  command: sleep 300
+- service: app
+  command: printenv

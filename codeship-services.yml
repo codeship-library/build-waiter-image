@@ -1,0 +1,6 @@
+app:
+  build:
+    dockerfile_path: Dockerfile
+waiter:
+  image: codeship/build-waiter
+  encrypted_env_file: waitercfg.encrypted

@@ -1,4 +1,6 @@
 - service: waiter
+  command: ls
+- service: waiter
   command: build-waiter
 - service: app
   command: sleep 300
